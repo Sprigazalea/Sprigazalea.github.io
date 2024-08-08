@@ -8,6 +8,25 @@ body {
     background: var(--background2)
 }
 
+#header-bar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;;
+    background-color: red;
+    border-radius: 15%;
+}
+
+li a {
+    display: block;
+}
+
 h1 {
     padding: 0;
     margin: 0;
