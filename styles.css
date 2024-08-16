@@ -5,7 +5,7 @@
 }
 
 body {
-    background: var(--background2)
+    background: var(--background2);
 }
 
 #header-bar {
@@ -13,14 +13,16 @@ body {
     margin: auto;
     padding: 0;
     width: 80%;
-    height: 20px;
+    height: 50px;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-grow: 1;
     gap: 10px;;
     background-color: red;
-    border-radius: 15%;
+    border-radius: 10%;
+    position: sticky;
+    top: 0;
 }
 
 li a {
