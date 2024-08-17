@@ -26,9 +26,9 @@ body {
     top: 0;
 }
 
-li a {
+li {
     display: block;
-
+    color: var(--font-color);
 }
 
 h1 {
