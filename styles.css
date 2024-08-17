@@ -6,6 +6,7 @@
 
 body {
     background: var(--background2);
+    color: var(--font-color);
 }
 
 #header-bar {
