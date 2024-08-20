@@ -56,8 +56,11 @@ h1 {
     padding: 14px 16px;
 }
 
-a:hover {
+a {
     text-decoration: none;
+}
+
+a:hover {
     background-color: var(--headercolorhighlight);
     color: white;
 }
