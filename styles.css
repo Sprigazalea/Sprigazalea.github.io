@@ -4,6 +4,7 @@
     --headercolor: rgb(82, 42, 90);
     --headercolorhighlight: rgb(104, 63, 112);
     --headercoloractive: rgb(54, 26, 59);
+    --headerfontcolor: white;
     --font-color: white;
 }
 
@@ -61,15 +62,16 @@ h1 {
 
 a {
     text-decoration: none;
+    color: var(--headerfontcolor);
 }
 
 a:hover {
     background-color: var(--headercolorhighlight);
-    color: var(--font-color);
+    color: var(--headerfontcolor);
 }
 
 a:visited {
-    color: var(--font-color);
+    color: var(--headerfontcolor);
 }
 
 /*.item a.active {
