@@ -27,6 +27,7 @@ body {
     position: sticky;
     top: 0;
     overflow: hidden;
+    font-family: Nanum Gothic Coding;
 }
 
 li {
