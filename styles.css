@@ -57,7 +57,7 @@ h1 {
     margin: auto;
     flex-grow: 1;
     padding: 14px 16px;
-    color: var(--font-color);
+    color: var(--headerfontcolor);
 }
 
 a {
