@@ -1,6 +1,6 @@
 :root {
     --background: rgb(46, 45, 45);
-    --background2: linear-gradient(33deg, rgb(27, 27, 27) 0%, rgba(50, 50, 50, 1) 100%);
+    --background2: linear-gradient(90deg, rgba(189,123,231,1) 0%, rgba(232,201,245,1) 88%);
     --headercolor: rgb(82, 42, 90);
     --headercolorhighlight: rgb(104, 63, 112);
     --headercoloractive: rgb(54, 26, 59);
@@ -55,6 +55,7 @@ h1 {
     margin: auto;
     flex-grow: 1;
     padding: 14px 16px;
+    color: var(--font-color);
 }
 
 a {
