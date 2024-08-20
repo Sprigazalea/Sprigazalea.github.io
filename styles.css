@@ -63,7 +63,7 @@ a {
 
 a:hover {
     background-color: var(--headercolorhighlight);
-    color: white;
+    color: var(--font-color);
 }
 
 a:visited {
