@@ -53,6 +53,10 @@ h1 {
     font-size: 8em;
 }
 
+.todo {
+    list-style-type: square;
+}
+
 .item {
     text-align: center;
     margin: auto;
