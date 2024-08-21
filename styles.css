@@ -16,7 +16,7 @@ body {
     font-family: Nanum Gothic Coding;
 }
 
-.header-bar {
+header {
     margin: auto;
     padding: 0;
     width: 80%;
@@ -59,7 +59,7 @@ h1 {
 }
 
 .todo {
-    
+
 }
 
 .item {
