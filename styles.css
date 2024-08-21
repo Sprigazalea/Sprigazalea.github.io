@@ -16,7 +16,7 @@ body {
     font-family: Nanum Gothic Coding;
 }
 
-#header-bar {
+.header-bar {
     margin: auto;
     padding: 0;
     width: 80%;
@@ -53,8 +53,13 @@ h1 {
     font-size: 8em;
 }
 
+.about {
+    max-width: 80%;
+    margin: auto;
+}
+
 .todo {
-    list-style-type: square;
+    
 }
 
 .item {
