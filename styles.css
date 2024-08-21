@@ -77,6 +77,15 @@ a:visited {
     color: var(--headerfontcolor);
 }
 
+.title {
+    font-size: 4em;
+}
+
+.text {
+    font-size: 1.5em;
+    line-height: 33px;
+}
+
 /*.item a.active {
     backgroundcolor: var(--headercoloractive);
     color: white;
