@@ -53,7 +53,12 @@ h1 {
     font-size: 8em;
 }
 
-.about {
+.about-div {
+    max-width: 80%;
+    margin: auto;
+}
+
+.project-div{
     max-width: 80%;
     margin: auto;
 }
