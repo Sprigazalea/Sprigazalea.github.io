@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
 :root {
     --background: rgb(46, 45, 45);
     --background2: linear-gradient(45deg, rgba(189,123,231,1) 0%, rgba(232,201,245,1) 88%);
@@ -11,6 +13,7 @@
 body {
     background: var(--background2);
     color: var(--font-color);
+    font-family: Nanum Gothic Coding;
 }
 
 #header-bar {
@@ -28,7 +31,6 @@ body {
     position: sticky;
     top: 0;
     overflow: hidden;
-    font-family: Nanum Gothic Coding;
 }
 
 li {
