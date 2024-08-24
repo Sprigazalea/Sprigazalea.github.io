@@ -32,6 +32,14 @@ header {
     overflow: hidden;
 }
 
+.header-item {
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+    padding: 18px 20px;
+    color: var(--headerfontcolor);
+}
+
 li {
     display: block;
     color: var(--font-color);
@@ -59,15 +67,14 @@ h1 {
 }
 
 .skills-list {
-    display: flex;
+    /*display: flex;*/
 }
 
-.header-item {
+.skills-block {
+    display: block;
     text-align: center;
     margin: auto;
-    flex-grow: 1;
-    padding: 18px 20px;
-    color: var(--headerfontcolor);
+    padding: 40px 40px;
 }
 
 a {
