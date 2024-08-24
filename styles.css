@@ -68,6 +68,9 @@ h1 {
 }
 
 #skills {
+}
+
+.skills-div {
     display: flex;
     gap: 2rem;
     width: 100%;
@@ -80,7 +83,7 @@ h1 {
     align-content: center;
     background-color: var(--headercolor);
     color: var(--headerfontcolor);
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     border: 10px;
     border-color: black;
     border-radius: 5px;
