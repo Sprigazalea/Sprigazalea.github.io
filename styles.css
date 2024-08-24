@@ -70,7 +70,9 @@ h1 {
 }
 
 .skills-block {
-
+    row-gap: 10px;
+    background-color: var(--headercolor);
+    color: var(--headerfontcolor);
 }
 
 a {
