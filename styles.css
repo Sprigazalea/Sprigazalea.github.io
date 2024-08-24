@@ -63,6 +63,16 @@ h1 {
     margin: auto;
 }
 
+.skills-div {
+    max-width: 80%;
+    margin: auto;
+}
+
+.todo-div {
+    max-width: 80%;
+    margin: auto;
+}
+
 .header-item {
     text-align: center;
     margin: auto;
