@@ -53,24 +53,13 @@ h1 {
     font-size: 8em;
 }
 
-.about-div {
+.homepage-div {
     max-width: 80%;
     margin: auto;
 }
 
-.project-div{
-    max-width: 80%;
-    margin: auto;
-}
-
-.skills-div {
-    max-width: 80%;
-    margin: auto;
-}
-
-.todo-div {
-    max-width: 80%;
-    margin: auto;
+.skills-list {
+    display: flex;
 }
 
 .header-item {
