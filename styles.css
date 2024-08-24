@@ -26,9 +26,9 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--headercolor);
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     position: sticky;
-    top: 0;
+    top: 0px;
     overflow: hidden;
 }
 
