@@ -30,6 +30,7 @@ header {
     position: sticky;
     top: 0px;
     overflow: hidden;
+    transition: all 2s ease;
 }
 
 .header-item {
