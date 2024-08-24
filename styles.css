@@ -67,14 +67,10 @@ h1 {
 }
 
 .skills-list {
-    /*display: flex;*/
 }
 
 .skills-block {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 40px 40px;
+
 }
 
 a {
