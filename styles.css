@@ -115,6 +115,7 @@ img {
     height: 75%;
     width: 75%;
     margin: auto;
+    border: 7px solid var(--headercolor);
 }
 
 /*.item a.active {
