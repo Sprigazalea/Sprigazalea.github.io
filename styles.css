@@ -110,6 +110,12 @@ a:visited {
     line-height: 33px;
 }
 
+img {
+    display: block;
+    height: 500px;
+    margin: auto;
+}
+
 /*.item a.active {
     backgroundcolor: var(--headercoloractive);
     color: white;
