@@ -43,7 +43,8 @@ header {
 
 hr {
     width: 80%;
-    text-align: right;
+    margin: auto;
+    padding-bottom: 60px;
 }
 
 li {
