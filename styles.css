@@ -41,6 +41,11 @@ header {
     color: var(--headerfontcolor);
 }
 
+hr {
+    width: 80%;
+    text-align: right;
+}
+
 li {
     display: block;
     color: var(--font-color);
