@@ -45,8 +45,7 @@ hr {
     margin: auto;
     height: 5px;
     border-radius: 99%;
-    color: rgb(0, 0, 0);
-    background-color: black;
+    background-color: var(--headercolor);
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -113,6 +112,7 @@ a:visited {
 
 .title {
     font-size: 4em;
+    margin-bottom: 10px;
 }
 
 .text {
