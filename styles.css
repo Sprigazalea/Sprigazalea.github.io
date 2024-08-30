@@ -30,7 +30,6 @@ header {
     position: sticky;
     top: 0px;
     overflow: hidden;
-    transition: all 1s ease;
 }
 
 .header-item {
@@ -44,6 +43,12 @@ header {
 hr {
     width: 80%;
     margin: auto;
+    height: 5px;
+    border-radius: 99%;
+    color: rgb(0, 0, 0);
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 li {
