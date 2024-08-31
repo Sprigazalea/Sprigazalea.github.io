@@ -33,6 +33,7 @@ nav {
     display: flex;
     flex-grow: 1;
     align-self: flex-start;
+    color: white;
 }
 
 .nav-items-div {
@@ -40,7 +41,7 @@ nav {
     align-self: flex-end;
 }
 
-.header-item {
+.nav-item {
     text-align: center;
     margin: auto;
     flex-grow: 1;
