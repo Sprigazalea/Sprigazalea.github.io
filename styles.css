@@ -19,7 +19,6 @@ body {
 
 nav {
     display: flex;
-    justify-content: flex-end;
     z-index: 100;
     padding: 0;
     width: 100%;
@@ -30,9 +29,15 @@ nav {
     overflow: hidden;
 }
 
+.nav-title-div {
+    display: flex;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
 .nav-items-div {
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 .header-item {
