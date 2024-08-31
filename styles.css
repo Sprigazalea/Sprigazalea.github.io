@@ -41,6 +41,7 @@ nav {
 .nav-items-div {
     display: flex;
     align-self: flex-end;
+    padding-right: 12px;
 }
 
 .nav-item {
