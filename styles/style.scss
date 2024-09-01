@@ -1,0 +1,138 @@
+$color_1: var(--font-color);
+$color_2: white;
+$color_3: var(--headerfontcolor);
+$font-family_1: Nanum Gothic Coding;
+$background-color_1: var(--headercolor);
+$background-color_2: var(--headercolorhighlight);
+$border-color_1: black;
+
+@import "https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap";
+/*.item a.active {
+    backgroundcolor: var(--headercoloractive);
+    color: white;
+}*/
+&:root {
+	--background: rgb(46, 45, 45);
+	--background2: linear-gradient(45deg, rgba(189,123,231,1) 0%, rgba(232,201,245,1) 97%);
+	--headercolor: rgba(82, 42, 90, 1);
+	--headercolorhighlight: rgb(104, 63, 112);
+	--headercoloractive: rgb(54, 26, 59);
+	--headerfontcolor: white;
+	--font-color: rgb(12, 1, 44);
+}
+body {
+	background: var(--background2);
+	color: $color_1;
+	font-family: $font-family_1;
+	scrollbar-width: none;
+}
+nav {
+	display: flex;
+	align-items: center;
+	z-index: 100;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	background-color: $background-color_1;
+	position: sticky;
+	top: 0px;
+	overflow: hidden;
+}
+.nav-title-div {
+	display: flex;
+	flex-grow: 1;
+	font-size: 20px;
+	padding-left: 1%;
+	color: $color_2;
+}
+.nav-items-div {
+	display: flex;
+	align-self: flex-end;
+	padding-right: 12px;
+}
+.nav-item {
+	text-align: center;
+	margin: auto;
+	flex-grow: 1;
+	padding: 13px 20px;
+	color: $color_3;
+}
+hr {
+	width: 80%;
+	margin: auto;
+	height: 5px;
+	border-radius: 99%;
+	background-color: $background-color_1;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+li {
+	display: block;
+	color: $color_1;
+}
+h1 {
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+.coming-soon {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: $color_1;
+	font-size: 8em;
+}
+.homepage-div {
+	max-width: 80%;
+	margin: auto;
+}
+.skills-div {
+	display: flex;
+	gap: 2rem;
+	width: 100%;
+}
+.skills-block {
+	min-width: fit-content;
+	width: 100px;
+	text-align: center;
+	align-content: center;
+	background-color: $background-color_1;
+	color: $color_3;
+	padding: 10px 0px 10px 0px;
+	border: 10px;
+	border-color: $border-color_1;
+	border-radius: 5px;
+}
+a {
+	text-decoration: none;
+	color: $color_3;
+	&:hover {
+		background-color: $background-color_2;
+		transition: background-color 0.3s ease;
+		color: $color_3;
+	}
+	&:visited {
+		color: $color_3;
+	}
+}
+.title {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+.subtitle {
+	margin-bottom: 10px;
+}
+.text {
+	font-size: 1.5em;
+	line-height: 33px;
+}
+img {
+	display: block;
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	border: 7px solid var(--headercolor);
+}
