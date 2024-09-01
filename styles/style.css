@@ -69,6 +69,15 @@ nav {
   color: var(--headerfontcolor);
 }
 
+.cloud {
+  position: absolute;
+  width: 350px;
+  height: 120px;
+  background-color: white;
+  border-radius: 100px;
+  top: 500px;
+}
+
 hr {
   width: 80%;
   margin: auto;
@@ -136,6 +145,7 @@ h1 {
   border: 10px;
   border-color: black;
   border-radius: 5px;
+  margin-bottom: 0px;
 }
 
 a {

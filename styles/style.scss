@@ -5,6 +5,7 @@ $font-family_1: Nanum Gothic Coding;
 $background-color_1: var(--headercolor);
 $background-color_2: var(--headercolorhighlight);
 $border-color_1: black;
+$cloud-color: white;
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
 /*.item a.active {
@@ -57,6 +58,14 @@ nav {
 	padding: 13px 20px;
 	color: $color_3;
 }
+.cloud {
+	position: absolute;
+	width: 350px;
+	height: 120px;
+	background-color: $cloud-color;
+	border-radius: 100px;
+	top: 500px;
+}
 hr {
 	width: 80%;
 	margin: auto;
@@ -106,6 +115,7 @@ h1 {
 	border: 10px;
 	border-color: $border-color_1;
 	border-radius: 5px;
+	margin-bottom: 0px;
 }
 a {
 	text-decoration: none;
