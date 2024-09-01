@@ -10,12 +10,12 @@
   --headercolorhighlight: rgb(104, 63, 112);
   --headercoloractive: rgb(54, 26, 59);
   --headerfontcolor: white;
-  --font-color: rgb(12, 1, 44);
+  --font-color: $font-color;
 }
 
 body {
   background: var(--background2);
-  color: var(--font-color);
+  color: #0c012c;
   font-family: Nanum Gothic Coding;
   scrollbar-width: none;
 }
@@ -81,7 +81,7 @@ hr {
 
 li {
   display: block;
-  color: var(--font-color);
+  color: #0c012c;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: var(--font-color);
+  color: #0c012c;
   font-size: 8em;
 }
 

@@ -1,4 +1,4 @@
-$color_1: var(--font-color);
+$font-color: rgb(12, 1, 44);
 $color_2: white;
 $color_3: var(--headerfontcolor);
 $font-family_1: Nanum Gothic Coding;
@@ -18,11 +18,11 @@ $border-color_1: black;
 	--headercolorhighlight: rgb(104, 63, 112);
 	--headercoloractive: rgb(54, 26, 59);
 	--headerfontcolor: white;
-	--font-color: rgb(12, 1, 44);
+	--font-color: $font-color;
 }
 body {
 	background: var(--background2);
-	color: $color_1;
+	color: $font-color;
 	font-family: $font-family_1;
 	scrollbar-width: none;
 }
@@ -68,7 +68,7 @@ hr {
 }
 li {
 	display: block;
-	color: $color_1;
+	color: $font-color;
 }
 h1 {
 	font-size: 30px;
@@ -82,7 +82,7 @@ h1 {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	color: $color_1;
+	color: $font-color;
 	font-size: 8em;
 }
 .homepage-div {
