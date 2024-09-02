@@ -167,3 +167,12 @@ img {
 		display: inline;
 	}
 }
+
+@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+	.title {
+		text-align: center;
+	}
+	#about {
+		padding: 0px 40px;
+	}
+}
