@@ -204,6 +204,13 @@ footer {
 	}
 }
 
+.counter {
+	display: flex;
+	padding-top: 20px;
+	max-width: 150px;
+	margin: auto;
+}
+
 @media only screen and (max-device-width: 992px), only screen and (max-width: 992px) {
 	.nav-item {
 		display: none;
