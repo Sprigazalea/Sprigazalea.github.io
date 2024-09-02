@@ -65,11 +65,17 @@ nav {
 .cloud {
 	position: absolute;
 	width: 350px;
-	height: 120px;
+	height: 80px;
 	background-color: $cloud-color;
 	border-radius: 100px;
-	top: 500px;
+	top: 550px;
 	z-index: 0;
+	&::before {
+
+	}
+	&::after {
+
+	}
 }
 hr {
 	width: 80%;
