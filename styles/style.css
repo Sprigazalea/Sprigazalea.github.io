@@ -46,7 +46,7 @@ nav {
       -ms-flex-positive: 1;
           flex-grow: 1;
   font-size: 20px;
-  padding-left: 1%;
+  padding-left: 12px;
   color: white;
 }
 
@@ -225,7 +225,13 @@ img {
   .title {
     text-align: center;
   }
+  .subtitle {
+    text-align: center;
+  }
   #about {
+    padding: 0px 40px;
+  }
+  #skills {
     padding: 0px 40px;
   }
 }
