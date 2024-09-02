@@ -234,5 +234,10 @@ img {
   #skills {
     padding: 0px 40px;
   }
+  .skills-div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
