@@ -59,6 +59,22 @@ nav {
   padding-right: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--headerfontcolor);
+}
+
+a:hover {
+  background-color: var(--headercolorhighlight);
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  color: var(--headerfontcolor);
+}
+
+a:visited {
+  color: var(--headerfontcolor);
+}
+
 .nav-item {
   text-align: center;
   margin: auto;
@@ -143,6 +159,12 @@ nav {
   z-index: 1;
 }
 
+h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
 hr {
   width: 80%;
   margin: auto;
@@ -151,22 +173,6 @@ hr {
   background-color: var(--headercolor);
   margin-top: 70px;
   margin-bottom: 70px;
-}
-
-li {
-  display: block;
-  color: #0c012c;
-}
-
-h1 {
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-}
-
-.homepage-div {
-  max-width: 80%;
-  margin: auto;
 }
 
 .skills-div {
@@ -197,22 +203,6 @@ h1 {
   margin-bottom: 0px;
 }
 
-a {
-  text-decoration: none;
-  color: var(--headerfontcolor);
-}
-
-a:hover {
-  background-color: var(--headercolorhighlight);
-  -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-  color: var(--headerfontcolor);
-}
-
-a:visited {
-  color: var(--headerfontcolor);
-}
-
 .title {
   font-size: 4em;
   margin-bottom: 10px;
@@ -234,6 +224,17 @@ img {
   width: 80%;
   margin: auto;
   border: 7px solid var(--headercolor);
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  display: block;
+  color: #0c012c;
 }
 
 footer {
