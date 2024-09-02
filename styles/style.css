@@ -56,7 +56,7 @@ nav {
   display: flex;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding-right: 12px;
+  padding-right: 20px;
 }
 
 .nav-item {
@@ -67,6 +67,10 @@ nav {
           flex-grow: 1;
   padding: 13px 20px;
   color: var(--headerfontcolor);
+}
+
+.fa-solid, .fa-bars {
+  display: none;
 }
 
 .cloud {
@@ -190,6 +194,9 @@ img {
 @media only screen and (max-device-width: 992px), only screen and (max-width: 992px) {
   .nav-item {
     display: none;
+  }
+  .fa-solid, .fa-bars {
+    display: inline;
   }
 }
 /*# sourceMappingURL=style.css.map */
