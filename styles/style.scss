@@ -126,6 +126,7 @@ h1 {
 	gap: 2rem;
 	width: 100%;
 	flex-wrap: wrap;
+	padding-bottom: 20px;
 }
 .skills-block {
 	min-width: fit-content;
@@ -158,6 +159,7 @@ a {
 }
 .subtitle {
 	margin-bottom: 10px;
+	padding-top: 10px;
 }
 .text {
 	font-size: clamp(1.25em, 1.5vw, 1.5em);
