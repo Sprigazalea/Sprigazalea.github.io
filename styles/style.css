@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
-/*.item a.active {
-    backgroundcolor: var(--headercoloractive);
-    color: white;
-}*/
 :root {
   --background: rgb(46, 45, 45);
   --background2: linear-gradient(45deg, rgb(209, 149, 247) 0%, rgba(232,201,245,1) 97%);
@@ -333,6 +329,7 @@ footer {
   margin: auto;
 }
 
+/* Tablet Media */
 @media only screen and (max-device-width: 992px), only screen and (max-width: 992px) {
   .nav-item {
     display: none;
@@ -347,6 +344,7 @@ footer {
   }
 }
 
+/* Phone Media */
 @media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
   .title {
     text-align: center;

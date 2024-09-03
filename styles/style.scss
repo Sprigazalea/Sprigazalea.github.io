@@ -8,10 +8,7 @@ $border-color_1: black;
 $cloud-color: white;
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
-/*.item a.active {
-    backgroundcolor: var(--headercoloractive);
-    color: white;
-}*/
+
 :root {
 	--background: rgb(46, 45, 45);
 	--background2: linear-gradient(45deg, rgb(209, 149, 247) 0%, rgba(232,201,245,1) 97%);
@@ -21,12 +18,14 @@ $cloud-color: white;
 	--headerfontcolor: white;
 	--font-color: $font-color;
 }
+
 body {
 	background: var(--background2);
 	color: $font-color;
 	font-family: $font-family_1;
 	scrollbar-width: none;
 }
+
 nav {
 	display: flex;
 	align-items: center;
@@ -39,6 +38,7 @@ nav {
 	top: 0px;
 	overflow: hidden;
 }
+
 .nav-title-div {
 	display: flex;
 	flex-grow: 1;
@@ -46,11 +46,13 @@ nav {
 	padding-left: 12px;
 	color: $color_2;
 }
+
 .nav-items-div {
 	display: flex;
 	align-self: flex-end;
 	padding-right: 20px;
 }
+
 a {
 	text-decoration: none;
 	color: $color_3;
@@ -63,6 +65,7 @@ a {
 		color: $color_3;
 	}
 }
+
 .nav-item {
 	text-align: center;
 	margin: auto;
@@ -70,14 +73,17 @@ a {
 	padding: 13px 20px;
 	color: $color_3;
 }
+
 .fa-solid, .fa-bars {
 	display: none;
 	font-size: 25px;
 }
+
 .greeter {
 	width: 100%;
 	height: 100vh;
 }
+
 .website-graphic {
 	position: absolute;
 	display: flex;
@@ -87,11 +93,13 @@ a {
 	height: 100vh;
 	z-index: -1;
 }
+
 .cloud {
 	position: absolute;
 	background-color: $cloud-color;
 	border-radius: 100px;
 }
+
 .cloud-main {
 	width: 325px;
 	height: 150px;
@@ -115,6 +123,7 @@ a {
 		left: 120px;
 	}
 }
+
 .cloud-small-1 {
 	width: 150px;
 	height: 100px;
@@ -134,6 +143,7 @@ a {
 		left: 40px;
 	}
 }
+
 .cloud-small-2 {
 	width: 150px;
 	height: 100px;
@@ -153,18 +163,21 @@ a {
 		right: 20px;
 	}
 }
+
 .cloud-small-3 {
 	width: 150px;
 	height: 100px;
 	top: 700px;
 	left: 150px;
 }
+
 .cloud-small-4 {
 	width: 150px;
 	height: 100px;
 	top: 750px;
 	right: 150px;
 }
+
 .coming-soon {
 	display: flex;
 	width: 100%;
@@ -176,11 +189,13 @@ a {
 	font-size: 8em;
 	z-index: 1;
 }
+
 h1 {
 	font-size: 30px;
 	padding: 0;
 	margin: 0;
 }
+
 hr {
 	width: 80%;
 	margin: auto;
@@ -190,6 +205,7 @@ hr {
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
+
 .skills-div {
 	display: flex;
 	gap: 2rem;
@@ -197,6 +213,7 @@ hr {
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 }
+
 .skills-block {
 	min-width: fit-content;
 	width: 125px;
@@ -210,18 +227,22 @@ hr {
 	border-radius: 3px;
 	margin-bottom: 0px;
 }
+
 .title {
 	font-size: 4em;
 	margin-bottom: 10px;
 }
+
 .subtitle {
 	margin-bottom: 10px;
 	padding-top: 10px;
 }
+
 .text {
 	font-size: clamp(1.25em, 1.5vw, 1.5em);
 	line-height: 33px;
 }
+
 img {
 	display: block;
 	height: 80%;
@@ -233,10 +254,12 @@ img {
 .project {
 	display: flex;
 }
+
 li {
 	display: block;
 	color: $font-color;
 }
+
 footer {
 	height: 130px;
 	background: $background-color_1;
@@ -263,6 +286,8 @@ footer {
 	margin: auto;
 }
 
+/* Tablet Media */
+
 @media only screen and (max-device-width: 992px), only screen and (max-width: 992px) {
 	.nav-item {
 		display: none;
@@ -274,6 +299,8 @@ footer {
 		justify-content: center;
 	}
 }
+
+/* Phone Media */
 
 @media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
 	.title {
