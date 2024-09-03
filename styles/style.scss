@@ -87,12 +87,14 @@ a {
 	height: 100vh;
 	z-index: -1;
 }
-.cloud-main {
+.cloud {
 	position: absolute;
-	width: 350px;
-	height: 150px;
 	background-color: $cloud-color;
 	border-radius: 100px;
+}
+.cloud-main {
+	width: 350px;
+	height: 150px;
 	&:after, &:before {
 		content: '';
 		position: relative;
@@ -107,18 +109,15 @@ a {
 		right: 45px;
 	}
 	&::after {
-		width: 180px;
-		height: 180px;
-		top: -300px;
-		left: 100px;
+		width: 250px;
+		height: 250px;
+		top: -307px;
+		left: 140px;
 	}
 }
 .cloud-small-1 {
-	position: absolute;
 	width: 150px;
 	height: 100px;
-	background-color: $cloud-color;
-	border-radius: 100px;
 	top: 200px;
 	left: 175px;
 	&:after, &:before {
@@ -132,15 +131,12 @@ a {
 		width: 120px;
 		height: 120px;
 		top: -20px;
-		left: 30px;
+		left: 40px;
 	}
 }
 .cloud-small-2 {
-	position: absolute;
 	width: 150px;
 	height: 100px;
-	background-color: $cloud-color;
-	border-radius: 100px;
 	top: 235px;
 	right: 175px;
 	&:after, &:before {
