@@ -218,6 +218,9 @@ footer {
 	.fa-solid, .fa-bars {
 		display: inline;
 	}
+	.skills-div {
+		justify-content: center;
+	}
 }
 
 @media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
@@ -232,9 +235,6 @@ footer {
 	}
 	#skills {
 		padding: 0px 15px;
-	}
-	.skills-div {
-		justify-content: center;
 	}
 
 }
