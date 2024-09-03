@@ -111,7 +111,7 @@ a:visited {
   z-index: -1;
 }
 
-.cloud {
+.cloud-main {
   position: absolute;
   width: 350px;
   height: 150px;
@@ -119,26 +119,76 @@ a:visited {
   border-radius: 100px;
 }
 
-.cloud:after, .cloud:before {
+.cloud-main:after, .cloud-main:before {
   content: '';
   position: relative;
   display: inline-block;
   background: inherit;
-  border-radius: inherit;
+  border-radius: 50%;
 }
 
-.cloud::before {
+.cloud-main::before {
   width: 200px;
   height: 200px;
   top: -50px;
   right: 45px;
 }
 
-.cloud::after {
+.cloud-main::after {
   width: 180px;
   height: 180px;
   top: -300px;
   left: 100px;
+}
+
+.cloud-small-1 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  top: 200px;
+  left: 175px;
+}
+
+.cloud-small-1:after, .cloud-small-1:before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.cloud-small-1::after {
+  width: 120px;
+  height: 120px;
+  top: -20px;
+  left: 30px;
+}
+
+.cloud-small-2 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  top: 235px;
+  right: 175px;
+}
+
+.cloud-small-2:after, .cloud-small-2:before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.cloud-small-2::before {
+  width: 120px;
+  height: 120px;
+  top: -20px;
+  right: 25px;
 }
 
 .coming-soon {
