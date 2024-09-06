@@ -28,13 +28,14 @@ body {
 
 nav {
 	display: flex;
+	position: sticky;
 	align-items: center;
 	z-index: 100;
 	padding: 0;
 	width: 100%;
 	height: 50px;
+	top: 150px;
 	background-color: $background-color_1;
-	position: sticky;
 	top: 0px;
 	overflow: hidden;
 }
@@ -82,19 +83,24 @@ a {
 .dropdown {
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	position: sticky;
 	width: 75%;
 	height: 100%;
-	right: 0;
 	z-index: 1;
 	background-color: $background-color_1;
 }
 
 .dropdown-item {
 	text-align: right;
+	margin: auto;
 	flex-grow: 1;
 	padding: 13px 40px;
 	color: $color_3;
+	&:hover {
+		background-color: $background-color_2;
+		transition: background-color 0.3s ease;
+		color: $color_3;	
+	}
 }
 
 .greeter {
