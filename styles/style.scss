@@ -75,7 +75,7 @@ a {
 	color: $color_3;
 }
 
-.fa-solid, .fa-bars {
+#dropdown-button {
 	display: none;
 	font-size: 25px;
 }
@@ -319,7 +319,7 @@ footer {
 	.nav-item {
 		display: none;
 	}
-	.fa-solid, .fa-bars {
+	#dropdown-button {
 		display: inline;
 	}
 	.skills-div {
