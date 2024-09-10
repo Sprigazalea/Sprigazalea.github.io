@@ -83,7 +83,7 @@ a {
 .dropdown {
 	display: flex;
 	flex-direction: column;
-	position: sticky;
+	position: fixed;
 	width: 75%;
 	height: 100%;
 	z-index: 1;
