@@ -100,8 +100,6 @@ a:visited {
   height: 100%;
   z-index: 1;
   background-color: var(--headercolor);
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
 .dropdown-item {
