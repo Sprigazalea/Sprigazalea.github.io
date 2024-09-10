@@ -96,19 +96,26 @@ a:visited {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  width: 75%;
+  right: 0;
+  max-width: 75%;
+  width: 550px;
   height: 100%;
   z-index: 1;
   background-color: var(--headercolor);
 }
 
+.dropdown-content {
+  height: 100%;
+}
+
 .dropdown-item {
   text-align: right;
   margin: auto;
+  font-size: 2rem;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 13px 40px;
+  padding: 70px 40px;
   color: var(--headerfontcolor);
 }
 

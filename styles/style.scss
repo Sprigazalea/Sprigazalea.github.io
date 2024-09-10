@@ -84,17 +84,24 @@ a {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	width: 75%;
+	right: 0;
+	max-width: 75%;
+	width: 550px;
 	height: 100%;
 	z-index: 1;
 	background-color: $background-color_1;
 }
 
+.dropdown-content {
+	height: 100%;
+}
+
 .dropdown-item {
 	text-align: right;
 	margin: auto;
+	font-size: 2rem;
 	flex-grow: 1;
-	padding: 13px 40px;
+	padding: 70px 40px;
 	color: $color_3;
 	&:hover {
 		background-color: $background-color_2;
