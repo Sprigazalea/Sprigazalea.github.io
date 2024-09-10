@@ -88,9 +88,7 @@ a:visited {
 }
 
 .dropdown {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -104,10 +102,6 @@ a:visited {
   background-color: var(--headercolor);
 }
 
-.dropdown-content {
-  height: 100%;
-}
-
 .dropdown-item {
   text-align: right;
   margin: auto;
@@ -115,7 +109,7 @@ a:visited {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 70px 40px;
+  padding: 30px 40px;
   color: var(--headerfontcolor);
 }
 
@@ -381,6 +375,11 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
