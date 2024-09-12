@@ -1,8 +1,8 @@
-const threeBarsButton = document.getElementsByClassName("fa-solid fa-bars")
+const threeBarsButton = document.getElementById("dropdown-button")
 const dropdownMenu = document.getElementsByClassName("dropdown")
 
 function displayDropdown() {
-    dropdownMenu.style.color = "blue";
+    threeBarsButton.style.color = "blue"
 }
 
-threeBarsButton.addEventListener("click", displayDropdown())
+document.addEventListener("click", displayDropdown())
