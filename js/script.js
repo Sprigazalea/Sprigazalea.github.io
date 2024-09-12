@@ -1,12 +1,8 @@
-const threeBarsButton = document.getElementById("dropdown-button")
-const dropdownMenu = document.getElementById("dropdown")
+const threeBarsButton = document.getElementsByClassName("fa-solid fa-bars")
+const dropdownMenu = document.getElementsByClassName("dropdown")
 
 function displayDropdown() {
-    if (dropdownMenu.style.display === "none") {
-        dropdownMenu.style.display = "flex";
-    } else if (dropdownMenu.style.display === "flex") {
-        dropdownMenu.style.display = "none"
-    }
+    dropdownMenu.style.color = "blue";
 }
 
 threeBarsButton.addEventListener("click", displayDropdown())
