@@ -132,7 +132,7 @@ a {
 }
 
 .cloud-main {
-	width: 325px;
+	width: 425px;
 	height: 150px;
 	&:after, &:before {
 		content: '';
@@ -145,12 +145,12 @@ a {
 		width: 200px;
 		height: 200px;
 		top: -50px;
-		right: 45px;
+		right: 35px;
 	}
 	&::after {
-		width: 250px;
-		height: 250px;
-		top: -307px;
+		width: 270px;
+		height: 270px;
+		top: -330px;
 		left: 120px;
 	}
 }
