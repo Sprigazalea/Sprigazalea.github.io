@@ -259,6 +259,13 @@ hr {
 	margin-bottom: 0px;
 }
 
+.project-grid {
+	display: grid;
+	grid-template-columns: 400px 500px;
+	grid-template-rows: 100px 500px;
+	background-color: white;
+}
+
 .title {
 	font-size: 4em;
 	margin-bottom: 10px;
