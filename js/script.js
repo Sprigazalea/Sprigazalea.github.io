@@ -2,7 +2,7 @@ const threeBarsButton = document.getElementById("dropdown-button")
 const dropdownMenu = document.getElementsByClassName("dropdown")
 
 function displayDropdown() {
-    threeBarsButton.style.color = "blue"
+    threeBarsButton.style.display = "none"
 }
 
-document.addEventListener("click", displayDropdown())
+threeBarsButton.addEventListener("click", displayDropdown)
