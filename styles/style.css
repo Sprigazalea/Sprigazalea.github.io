@@ -43,7 +43,6 @@ nav {
       -ms-flex-positive: 1;
           flex-grow: 1;
   font-size: 20px;
-  padding-left: 12px;
   color: white;
 }
 
@@ -70,6 +69,11 @@ a:hover {
 
 a:visited {
   color: var(--headerfontcolor);
+}
+
+.nav-title {
+  text-align: center;
+  padding: 13px 20px;
 }
 
 .nav-item {
