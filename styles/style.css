@@ -302,6 +302,10 @@ hr {
   margin-bottom: 0px;
 }
 
+.skills-block:hover {
+  background-color: var(--headercolorhighlight);
+}
+
 .project-grid {
   display: -ms-grid;
   display: grid;

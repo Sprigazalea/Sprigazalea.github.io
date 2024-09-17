@@ -260,6 +260,9 @@ hr {
 	border-color: $border-color_1;
 	border-radius: 3px;
 	margin-bottom: 0px;
+	&:hover {
+		background-color: $background-color_2;
+	}
 }
 
 .project-grid {
