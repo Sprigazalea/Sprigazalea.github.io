@@ -1,8 +1,12 @@
 const threeBarsButton = document.getElementById("dropdown-button")
-const dropdownMenu = document.getElementsByClassName("dropdown")
+const dropdownMenu = document.getElementById("dropdown")
 
 function displayDropdown() {
-    threeBarsButton.style.display = "none"
+    if (dropdownMenu.classList.contains("dropdown")) {
+        dropdownMenu.classList.replace("dropdown", "")
+    } else {
+        console.log("error!")
+    }
 }
 
 threeBarsButton.addEventListener("click", displayDropdown)

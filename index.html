@@ -130,7 +130,7 @@
                 <script type="text/javascript" src="//counter.websiteout.com/js/2/5/0/0"></script>
             </div>
         </footer>
-        <script src="js/script.js"></script>
+        <!--<script src="js/script.js"></script>-->
         <script>
             var headerOffset = 100; // This is the offset you're gonna give it. So like. make it slightly bigger than your navbar's height
             // This is for links in other pages i think
@@ -149,6 +149,12 @@
                 $('html,body').stop().animate({ scrollTop: $('#' + urlHash).offset().top - headerOffset }, 600); // And it basically does the same thing as above.
                 }
             });
+        </script>
+        <script>
+            $("#dropdown-button").on("click", function(event) {
+                event.preventDefault();
+                $("#dropdown").toggle()
+            })
         </script>
     </body>
 </html>

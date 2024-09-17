@@ -390,11 +390,6 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .dropdown {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 /* Phone Media */
