@@ -108,6 +108,9 @@ a {
 		transition: background-color 0.3s ease;
 		color: $color_3;	
 	}
+	&:visited {
+		color: $color_3;
+	}
 }
 
 .greeter {

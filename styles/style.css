@@ -124,6 +124,10 @@ a:visited {
   color: var(--headerfontcolor);
 }
 
+.dropdown-item:visited {
+  color: var(--headerfontcolor);
+}
+
 .greeter {
   width: 100%;
   height: 100vh;
